@@ -1,0 +1,6 @@
+{
+  "name": "SIFER-360 - Sistema Integral de Ferretería y Repuestos Automotrices",
+  "description": "Sistema POS estilo Windows clásico A2 para repuestos, aceites y lubricantes con catálogo por marca, modelo y año.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

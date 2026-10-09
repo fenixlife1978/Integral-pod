@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* Windows Classic / 7 Inset Scrollbars */
+  ::-webkit-scrollbar {
+    width: 14px;
+    height: 14px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-left: 1px solid #dcdcdc;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #c1d5e9;
+    border: 1px solid #7f9db9;
+    border-radius: 2px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a4c2df;
+  }
+}
